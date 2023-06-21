@@ -1,9 +1,12 @@
-import Navbar from "../components/Navbar";
+import ListCard from "../components/ListCard";
 
 export default function Home() {
+
   return (
-    <div className="center">
-      <h2>Home Page</h2>
+  
+    <div  >
+    
+      <ListCard />
     </div>
   );
 }

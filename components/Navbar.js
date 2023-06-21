@@ -12,13 +12,14 @@ const MENU_LIST = [
 const Navbar = () => {
   const [navActive, setNavActive] = useState(null);
   const [activeIdx, setActiveIdx] = useState(-1);
+  const text= "VJ";
 
   return (
     <header>
       <nav className={`nav`}>
         <Link href={"/"}>
           <a>
-            <h1 className="logo">CodeWithMarish</h1>
+            <Logo name={text}/>
           </a>
         </Link>
         <div

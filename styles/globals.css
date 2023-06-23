@@ -1,9 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+@import "primeflex/primeflex.css";
 @import 'primereact/resources/primereact.css';
 @import 'primereact/resources/themes/saga-blue/theme.css';
+@import 'primeflex/themes/primeone-light.css';
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
 * {
   margin: 0;
